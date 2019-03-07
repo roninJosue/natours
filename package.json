@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass":"node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roninJosue/natours.git"
+  },
+  "author": "Reynaldo Cano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roninJosue/natours/issues"
+  },
+  "homepage": "https://github.com/roninJosue/natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
